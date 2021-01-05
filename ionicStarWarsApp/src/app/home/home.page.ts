@@ -11,7 +11,7 @@ export class HomePage {
   constructor(private auth: AuthServices) {}
   CallMe(){
     this.auth.ValidateReference({payload: 'payload'}).subscribe(res => {
-      this.result = res;
+      this.result = res.message;
     }, err =>
     {
       this.result = `error ${err.message}`;
