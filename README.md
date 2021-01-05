@@ -2,7 +2,9 @@
 How to implement CSRF in Ionic Angular Node js App
 
 For Node Js
+
 cd Api
+
 npm i
 
 npm run dev
@@ -12,6 +14,8 @@ npm run dev
 For Ionic Angular App
 
 cd ionicStartWarsApp
+
 npm i
+
 npm run start
 
